@@ -1,5 +1,5 @@
 ### Hi there 👋
-# Meu nome é João
+# Meu nome é João Vitor Cunha Chinato
 
 <!--
 **vitorpts/vitorpts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
