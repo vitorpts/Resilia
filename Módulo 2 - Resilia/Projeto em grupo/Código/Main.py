@@ -1,4 +1,4 @@
-from POOInicial import *
+from POOBIBLIOTECA import *
 
 # Chamar a POO
 pesquisa = Pesquisa()

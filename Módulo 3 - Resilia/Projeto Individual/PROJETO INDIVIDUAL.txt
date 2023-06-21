@@ -1,0 +1,58 @@
+1. Quais são as entidades necessárias?;
+As entidades necessárias são, EMPRESA, TECNOLOGIA, EMPRESA_TECNOLOGIA e COLABORADOR
+
+2. Quais são os principais campos e seus respectivos tipos?;
+Os Campos ID do tipo INT, e os Campos para dados como NOME, CNPJ, TELEFONE, ENDEREÇO onde eu preferi colocar todos em VARCHAR()
+
+3. Como essas entidades estão relacionadas?;
+A relação das entidades é de (1:N) entre EMPRESA e COLABORADOR, (N:N) EMPRESA e TECNOLOGIA
+
+4. Simule 2 registros para cada entidade.
+
+Simulação 1:
+EMPRESA
+ID - 1
+CNPJ - XX.XXX.XXX/0001-XX
+NOME - RESILIADATA
+ENDERECO - RUA DAS LARANJEIRAS 200, VILA MORUMBI, SÃO PAULO - SP
+CONTATO - (00) 4002-8922
+
+TECNOLGIA
+ID - 1
+NOME - PYTHON
+AREA - DADOS
+
+EMPRESA_TECNOLOGIA
+ID - 1
+FK - EMPRESA_ID
+FK - TECNOLOGIA_ID
+
+COLABORADOR
+ID - 1
+NOME - JOÃO VITOR
+CONTATO - (14)98838-1794
+FK - EMPRESA_ID
+
+Simulação 2:
+EMPRESA
+ID - 2
+CNPJ - XX.XXX.XXX/0009-XX
+NOME - INVETONAHORA
+ENDERECO - RUA DAS ABACAXIS 100, VILA OLIVEIRA, IGARAÇU DO TIETÊ - SP
+CONTATO - (00) 3638-1921
+
+TECNOLGIA
+ID - 2
+NOME - R
+AREA - DADOS/ESTATISTICAS
+
+EMPRESA_TECNOLOGIA
+ID - 2
+FK - EMPRESA_ID
+FK - TECNOLOGIA_ID
+
+COLABORADOR
+ID - 2
+NOME - JOSÉ LUIZ
+CONTATO - (11)92838-1524
+FK - EMPRESA_ID
