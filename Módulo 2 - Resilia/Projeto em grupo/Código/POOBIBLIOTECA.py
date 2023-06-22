@@ -21,17 +21,26 @@ class Pesquisa:
                     respostas.append(int(resposta))
                     break
                 else:
-                    print("\nOpção inválida\nSelecione uma opção válida: 1-Sim|2-Não|3-Não sei responder\n")
+                    print("\nOpção inválida\nSelecione uma opção válida: 1-Sim|2-Não|3-Não sei responder\n") #Caso você coloque uma opção invalida o código vai te informar e retornar para mesma pergunta até você colocar uma opção valida
         return respostas
-
-    # Modelo do arquivo CSV
-    def salvar_resultados(self, arquivo_csv):
-        with open(arquivo_csv, "w", newline="") as file:
-            writer = csv.writer(file)
-            writer.writerow(["Idade","Genero","Resposta 1","Resposta 2","Resposta 3","Resposta 4","Data e Hora"])
+    
+    def adicionar_resultados(self, arquivo_csv):
+        with open(arquivo_csv, "a", newline="") as file: #Função para adicionar respostas a um arquivo existente
+            writer = csv.writer(file) # "a" adiciona e "w" cria um novo
 
             for resposta in self.respostas:
                 writer.writerow(resposta)
+    # Modelo do arquivo CSV
+    def salvar_resultados(self, arquivo_csv):
+        if os.path.exists(arquivo_csv): # Se o arquivo CSV já existir ele apenas irá adicionar a pesquisa ao mesmo arquivo CSV
+            self.adicionar_resultados(arquivo_csv)
+        else:
+            with open(arquivo_csv, "w", newline="") as file: # Caso ele não exista, ele irá criar um novo arquivo CSV
+                writer = csv.writer(file)
+                writer.writerow(["Idade","Genero","Resposta 1","Resposta 2","Resposta 3","Resposta 4","Data e Hora"])
+
+                for resposta in self.respostas:
+                    writer.writerow(resposta)
         # Print para saudação e resumo sobre a pesquisa para iniciar
         print("Pesquisa salva no banco de dados, muito obrigado(a)")
 
@@ -54,6 +63,6 @@ class Pesquisa:
             # Adicionar as respostas à lista de respostas
             self.respostas.append([idade, genero] + respostas_participante + [data_hora])
         # Salvar os resultados
-        diretorio_atual = os.path.abspath(os.getcwd())
-        arquivo_csv = os.path.join(diretorio_atual, "pesquisa_regulamentacao_aplicativo.csv")
+        diretorio_atual = os.path.abspath(os.getcwd()) #Para salvar no diretório em que os arquivos do código se encontra
+        arquivo_csv = os.path.join(diretorio_atual, "pesquisa_regulamentacao.csv") #Para criar um novo arquivo CSV mude o nome dele nessa linha
         self.salvar_resultados(arquivo_csv)
