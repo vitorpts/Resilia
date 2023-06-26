@@ -5,7 +5,7 @@ As entidades necessárias são, EMPRESA, TECNOLOGIA, EMPRESA_TECNOLOGIA e COLABO
 Os Campos ID do tipo INT, e os Campos para dados como NOME, CNPJ, TELEFONE, ENDEREÇO onde eu preferi colocar todos em VARCHAR()
 
 3. Como essas entidades estão relacionadas?;
-A relação das entidades é de (1:N) entre EMPRESA e COLABORADOR, (N:N) EMPRESA e TECNOLOGIA
+A relação das entidades é de (1:N) entre EMPRESA e COLABORADOR, TECNOLOGIA e EMPRESA_TECNOLOGIA (N), EMPRESA (1:N) EMPRESA_TECNOLOGIA
 
 4. Simule 2 registros para cada entidade.
 
