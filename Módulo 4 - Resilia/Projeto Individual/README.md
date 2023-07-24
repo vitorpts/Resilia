@@ -7,7 +7,7 @@
 
 
 ## Evidência de Entrega:
-Comecei meu plano de ação utilizando o trello definindo quais documentos eu devia ler e o que eu necessitava estudar.
+Comecei meu plano de ação utilizando o trello definindo quais documentos eu devia ler e o que eu necessitava estudar.                   
 Para desenvolver o relatório utilizei o GoogleColab onde nós tivemos nossas aulas iniciais, consegui utilizar corretamente o pandas mas infelizmente não tive nenhuma ideia para se fazer necessário mesclar o pandas com o numpy, e para importar o numpy e fazer alguma linha desnecessária só para mostrar que eu o utilizei achei que não ficaria legal.
 Detalhei todos os passos do relatório com as caixas de texto e para que ficasse de melhor visualização utilizei cores diferentes para cada parte.
 ### Ferramentas Utilizadas
