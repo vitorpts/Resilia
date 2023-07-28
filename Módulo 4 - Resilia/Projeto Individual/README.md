@@ -19,4 +19,4 @@ pandas
 matplotlib.pyplot
 
 ### Conclusão
-Essa atividade indivídual foi muito importante, me mostrou de uma forma muito básica como um analista de dados trabalha, foi muito divertido fazer esse relatório. Gostaria de agradecer ao Rafa pelas aulas, e ao José pelas monitorias que são muito importantes e esclarecedoras.
+Essa atividade individual foi muito importante, me mostrou de uma forma muito básica como um analista de dados trabalha, foi muito divertido fazer esse relatório. Gostaria de agradecer ao Rafa pelas aulas, e ao José pelas monitorias que são muito importantes e esclarecedoras.
