@@ -8,11 +8,15 @@
 
 ## Evidência de Entrega:
 Comecei meu plano de ação utilizando o trello definindo quais documentos eu devia ler e o que eu necessitava estudar.                   
-Para desenvolver o relatório utilizei o GoogleColab onde nós tivemos nossas aulas iniciais, consegui utilizar corretamente o pandas mas infelizmente não tive nenhuma ideia para se fazer necessário mesclar o pandas com o numpy, e para importar o numpy e fazer alguma linha desnecessária só para mostrar que eu o utilizei achei que não ficaria legal.
+Para desenvolver o relatório utilizei o GoogleColab onde nós tivemos nossas aulas iniciais, importando o pandas para responder as rúbricas do trabalho, e como extra adicionei fiz uma tabela com a produtividade diária e adicionei um gráfico simples importando a biblioteca matplotlib.
 Detalhei todos os passos do relatório com as caixas de texto e para que ficasse de melhor visualização utilizei cores diferentes para cada parte.
 ### Ferramentas Utilizadas
 
 GoogleColab
 
+### Bibliotecas
+pandas
+matplotlib.pyplot
+
 ### Conclusão
-Espero que eu tenha feito corretamente o relatório, pois foi muito satisfatório conseguir utilizar essa biblioteca para visualizar os dados.
+Essa atividade indivídual foi muito importante, me mostrou de uma forma muito básica como um analista de dados trabalha, foi muito divertido fazer esse relatório. Gostaria de agradecer ao Rafa pelas aulas, e ao José pelas monitorias que são muito importantes e esclarecedoras.
