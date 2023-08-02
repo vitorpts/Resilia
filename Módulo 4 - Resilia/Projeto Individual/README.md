@@ -12,11 +12,14 @@ Para desenvolver o relatório utilizei o GoogleColab onde nós tivemos nossas au
 Detalhei todos os passos do relatório com as caixas de texto e para que ficasse de melhor visualização utilizei cores diferentes para cada parte.
 ### Ferramentas Utilizadas
 
-GoogleColab
+<a target="_blank" href="https://colab.research.google.com/github/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/official/model_monitoring/model_monitoring.ipynb"> 
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 
 ### Bibliotecas
-pandas
-matplotlib.pyplot
+<img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+      <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib">
 
 ### Conclusão
 Essa atividade individual foi muito importante, me mostrou de uma forma muito básica como um analista de dados trabalha, foi muito divertido fazer esse relatório. Gostaria de agradecer ao Rafa pelas aulas, e ao José pelas monitorias que são muito importantes e esclarecedoras.
