@@ -15,12 +15,13 @@ Após a descoberta a empresa decidiu tomar meddias para melhorar as oportunidade
 <a target="_blank" href="https://colab.research.google.com/github/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/official/model_monitoring/model_monitoring.ipynb"> 
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-<img src="https://logosmarcas.net/wp-content/uploads/2021/10/Tableau-Logo.png" alt="Tableau">
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white
+" alt="Tableau">
 
 
 ### Bibliotecas
 <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-      <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib">
+      <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy">
 
 ### Conclusão
 Com base na análise exploratória realizada, concluímos que o principal motivo para a saída dos funcionários é a progressão de carreira. Isso indica que os funcionários estão buscando oportunidades de crescimento e desenvolvimento em suas carreiras, e podem não estar encontrando essas oportunidades dentro da empresa. É importante que a empresa avalie suas políticas de progressão de carreira e desenvolvimento profissional para garantir que os funcionários tenham oportunidades de crescimento e se sintam valorizados. Isso pode ajudar a reter talentos e reduzir a rotatividade de funcionários.
