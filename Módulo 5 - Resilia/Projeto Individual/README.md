@@ -1,4 +1,4 @@
-# Análise exploratória com visualização gráfica em gráficos e dashboard!
+# Análise exploratória com visualização em gráficos e dashboards
 
 **Trabalho Individual Modulo 5, Resilia.**
  
