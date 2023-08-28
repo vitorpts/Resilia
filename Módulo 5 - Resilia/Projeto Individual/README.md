@@ -15,7 +15,7 @@ Após a descoberta a empresa decidiu tomar meddias para melhorar as oportunidade
 <a target="_blank" href="https://colab.research.google.com/github/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/official/model_monitoring/model_monitoring.ipynb"> 
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.credly.com%2Fbadges%2F70c1897d-17b4-42d7-960e-53d6e8e41bea&psig=AOvVaw2vpPKXBXGaf5b4cuPqxgN8&ust=1693272346042000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLjj8fSY_oADFQAAAAAdAAAAABAE" alt="Tableau">
+<img src="https://logosmarcas.net/wp-content/uploads/2021/10/Tableau-Logo.png" alt="Tableau">
 
 
 ### Bibliotecas
