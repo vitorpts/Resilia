@@ -5,7 +5,7 @@
 
 - Mapa de árvore: 
 
-https://public.tableau.com/app/profile/jo.o.vitor.cunha/viz/Mapadervore_16931680767340/Mapadervore
+https://public.tableau.com/app/profile/jo.o.vitor.cunha/viz/Mapadervore_16933598841650/Mapadervore
 
 - Gráfico de barras duplas:
 
@@ -17,4 +17,4 @@ https://public.tableau.com/app/profile/jo.o.vitor.cunha/viz/GrficodeBarrasHorizo
 
 - Dashboard com interação no mapa de árvore:
 
-https://public.tableau.com/app/profile/jo.o.vitor.cunha/viz/DashboardMdulo5/Dashboard
+https://public.tableau.com/app/profile/jo.o.vitor.cunha/viz/DashboardcominteraonoMapadervore/Dashboard
